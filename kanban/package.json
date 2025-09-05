@@ -1,5 +1,5 @@
 {
-  "name": "front",
+  "name": "kanban",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.12",
+    "@hookform/resolvers": "^5.2.1",
+    "axios": "^1.11.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-router-dom": "^7.8.2",
-    "tailwindcss": "^4.1.12"
+    "react-hook-form": "^7.62.0",
+    "sass": "^1.91.0",
+    "zod": "^4.1.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
