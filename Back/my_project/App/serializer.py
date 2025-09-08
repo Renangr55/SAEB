@@ -4,7 +4,12 @@ from .models import (Usuario,Tarefa)
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
-        fields = "__all__"
+        fields = ["id","nomeUsuario","emailUsuario"]
+        read_only_fields = ['id'] 
+
+        
+
+
 
 class TarefaSrializer(serializers.ModelSerializer):
     class Meta:
