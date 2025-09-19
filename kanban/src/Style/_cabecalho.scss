@@ -1,0 +1,54 @@
+@use './variaveis' as *;
+
+.conteiner{
+    width: 100vw;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #277cfc;
+
+    .barraTexto{
+        width: 95rem;
+
+        .titulo{
+        font-size: 18px;
+        color: $background;
+        font-family: $font-principal;
+        }
+    }
+    
+    
+    .barra{
+        background-color: #277cfc;
+        color:$background;
+        font-size: 14px;
+        
+    
+
+        ul{
+            display:flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            gap:20px;
+            padding: 10px;
+            text-decoration: none;
+            list-style: none;
+
+            li{
+            text-decoration: none;
+            list-style: none;
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+            }
+        }
+        
+    }
+
+
+}

@@ -1,0 +1,35 @@
+@use './variaveis' as *;
+.formulario{
+    max-width: 500px;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    h2{
+        font-size: 24px;
+        color:black;
+        text-align: start;
+    }
+    label{
+        font-weight: bold;
+        color:#000000;;
+        
+    }
+
+    input, select, textarea{
+        padding: 5px;
+        border-radius: $borda-arrendondada;
+        border-color: #277cfc;;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    button{
+        background-color: #277cfc;;
+        padding: 5px;
+        width: 10rem;
+        color: $background;
+    }
+
+}

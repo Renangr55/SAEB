@@ -26,8 +26,8 @@ class Tarefa(models.Model):
 
     idTarefa = models.AutoField(primary_key=True)
     descricao = models.CharField(null=False)
+    setor = models.CharField(null=False)
     prioridade = models.CharField(choices=PRIORIDADE_CHOICES,null=False)
-    dataCadastro = models.DateField()
     status = models.CharField(choices=STATUS_CHOICES,null=False)
     idUser = models.ForeignKey(Usuario,on_delete=models.CASCADE,null=False)
 
